@@ -40,9 +40,9 @@
     height: 90px;
     position: fixed;
     background-color: transparent;
-    backdrop-filter: blur(30p);
     z-index: 10;
     @include flex-center;
+    backdrop-filter: blur(10000px);
 }
 .header__container {
     width: 90%;

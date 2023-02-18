@@ -18,12 +18,12 @@
   height: 90px;
   position: fixed;
   background-color: transparent;
-  -webkit-backdrop-filter: blur(30p);
-          backdrop-filter: blur(30p);
   z-index: 10;
   display: flex;
   justify-content: center;
   align-items: center;
+  -webkit-backdrop-filter: blur(10000px);
+          backdrop-filter: blur(10000px);
 }
 
 .header__container {
